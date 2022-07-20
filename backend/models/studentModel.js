@@ -17,7 +17,7 @@ const studentSchema = mongoose.Schema({
         required: [true, 'Please add your phone number']
     },
     
-    zoomlink: {
+    zoomLink: {
         type: String
     },
     
